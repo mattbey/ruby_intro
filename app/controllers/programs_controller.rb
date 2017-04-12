@@ -58,7 +58,7 @@ class ProgramsController < ApplicationController
     muliple_numbers=[]
 
     numbers.each do |num|
-      mult = num * num
+      mult = sum(num+3)
 
       muliple_numbers.push(mult)
 
